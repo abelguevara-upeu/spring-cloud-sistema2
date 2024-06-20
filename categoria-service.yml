@@ -4,7 +4,7 @@ eureka:
   client:
     register-with-eureka: true
     #fetch-registry: false
-    serviceurl:
+    serviceUrl:
       defaultZone: http://localhost:8850/eureka/
 message: Categoria Server Up
 spring:
