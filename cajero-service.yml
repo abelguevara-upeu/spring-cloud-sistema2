@@ -1,5 +1,11 @@
 server:
   port: ${PORT:8863}
+eureka:
+  client:
+    register-with-eureka: true
+    #fetch-registry: false
+    serviceurl:
+      defaultZone: http://localhost:8850/eureka/
 message: Cajero Server Up
 spring:
   datasource:
@@ -13,4 +19,4 @@ spring:
       database-platform: org.hibernate.dialect.MySQLDialect                     
   cloud:
     config:
-      uri: http://localhost:8860 
+      uri: http://localhost:8860
