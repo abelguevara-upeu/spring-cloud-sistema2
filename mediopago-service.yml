@@ -6,7 +6,7 @@ eureka:
     #fetch-registry: false
     serviceurl:
       defaultZone: http://localhost:8850/eureka/
-message: Registry Server Up
+message: MedioPago Server Up
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
